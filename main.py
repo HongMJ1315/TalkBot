@@ -147,7 +147,6 @@ async def help(ctx):
     await ctx.send(embed=embed)
     await paginator.run()
 
-keep_alive.keep_alive()
 bot.run(mod.config.token)
 
 
