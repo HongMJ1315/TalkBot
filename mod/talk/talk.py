@@ -3,7 +3,7 @@ import random
 from ..wlog import wlogs
 _talk={}
 
-with open('talk_dic.json', 'r') as f:
+with open('talk_dic.json', 'r',encoding='UTF-8') as f:
 	talk = json.load(fp=f)
 	_talk=talk
 	print(talk)
