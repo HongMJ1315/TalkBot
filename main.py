@@ -10,9 +10,6 @@ import mod.sug
 import mod.ptalk.forget
 import mod.ptalk.config
 import mod.sethelp
-import keep_alive
-from disputils import BotEmbedPaginator, BotConfirmation, BotMultipleChoice
-
 
 
 bot = commands.Bot(command_prefix=mod.config.head_key)
