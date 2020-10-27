@@ -7,6 +7,7 @@
 * ptalk_dic.json
 * suggestion.txt
 * talk_dic.txt
+* disputils/ (此為網路上下載使用的函式庫)
 * mod/
 * * \_\_init\_\_.py
 * * config.py
@@ -22,9 +23,4 @@
 * * talk/
 * * * \_\_init\_\_.py
 * * * talk.py
-### 檔案內容
-#### log.txt
-記錄所有客戶端對於關鍵字回復的修改或指令呼叫
-#### main.py
-
-#### 
+ 
